@@ -18,4 +18,8 @@ cd ./cam_qr_s
 make
 ./CB_on_T
 ```   
-При необходимости в файле CB_on_T.cpp в строке `QRScaner_init("/dev/video0", Display_QR_code);` заменить `"/dev/video0"` на актуальную камеры и пересобрать `CB_on_T` командой `make`.
+При необходимости в файле CB_on_T.cpp в строке `QRScaner_init("/dev/video0", Display_QR_code);` заменить `"/dev/video0"` на актуальную камеры и пересобрать `CB_on_T` командой `make`.  
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/AlexanderChad/cam_qr_s/blob/main/VID_20211119_121510.gif" alt="test" title="qr">
+</p>
